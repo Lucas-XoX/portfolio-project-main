@@ -174,11 +174,11 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Calendar Versioning](https://calver.org/) of
 the following form: YYYY.0M.0D.
 
-## YYYY.MM.DD
+## 2025.02.20
 
 ### Added
 
-- Designed a proof of concept for <!-- insert name of component here --> component
+- Designed a proof of concept for Minimalist To-Do List System component
 
 ### Updated
 
@@ -194,7 +194,7 @@ request merge (or at least tag your commits). This is not required.
 
 ### Submission
 
-<!-- TODO: read the submission instructions then delete this comment -->
+
 
 Assuming that your project is in a GitHub repo somewhere and your changes are on
 a proof-of-concept branch, then what we'll want you to do is create a pull
@@ -218,6 +218,7 @@ requests, which could sacrifice the overall quality of your work or result in
 major rework.
 
 <!-- TODO: paste the URL to Carmen then delete this comment -->
+https://github.com/Lucas-XoX/repo-name/pull/#
 
 ### Peer Review
 
