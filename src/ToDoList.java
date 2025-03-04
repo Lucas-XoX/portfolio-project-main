@@ -33,9 +33,9 @@ public class ToDoList {
      * @return true if the task was removed, false otherwise.
      */
     public boolean removeTask(String description) {
-        for (Task task : this.tasks) {
-            if (task.getDescription().equals(description)) {
-                this.tasks.remove(task);
+        for (int i = 0; i < this.tasks.size(); i++) {
+            if (this.tasks.get(i).getDescription().equals(description)) {
+                this.tasks.remove(i);
                 System.out.println("Task removed: " + description);
                 return true;
             }
