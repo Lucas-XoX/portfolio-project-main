@@ -11,15 +11,22 @@ the following form: YYYY.0M.0D.
 ### Added
 - Implemented **Minimalist To-Do List System** MVP component
   - **Core Methods**:
-    - `addTask()`
-    - `removeTask()`
-    - `completeTask()`
+    - `addTask(String description)`: Adds a task to the list.
+    - `removeTask(String description)`: Removes a task from the list.
+    - `markTaskCompleted(String description)`: Marks a task as completed.
   - **Additional Features**:
-    - `displayTasks()`
+    - `displayTasks()`: Displays all tasks in the list.
   - **Main Method**:
-    - Tests core functionality
+    - Demonstrates basic functionality of adding, removing, and completing tasks.
 
-## 2005.02.04
+### Updated
+- **Optimized `removeTask()` method**:
+  - Replaced `for-each` loop with an indexed `for` loop to avoid `ConcurrentModificationException`.
+- **Replaced ternary expression in `toString()`**:
+  - Used explicit `if-else` instead of `? :` operator for better readability.
+
+
+## 2025.02.04
 
 ### Added
 
